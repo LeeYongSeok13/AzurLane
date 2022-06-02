@@ -1,36 +1,62 @@
-body {
-    background-image: url('../img/bach-do-azur-lane-enterprisesd.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    opacity: 1;
-}
-.basic {
-    display: flex;
-    margin: 10px;
-    padding: 10px;
-    width: 100%;
+.header {
     line-height: 100px;
-    border: 1px solid #333;
 }
 
-.basic .container {
+.header .container {
     display: flex;
-    gap: 150px;
-    
+    width: 1200px;
+    margin: 0 auto;    
 }
 
-.basic nav {
-    margin: 0 auto;
+nav {
+    margin: 0 0 0 auto;
+    text-align: center;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li>a {
+    display: block;
+    padding: 0 40px;
+}
+
+nav>ul ul a {
+    display: block;
+    line-height: 40px;
+}
+
+nav>ul>li {
     position: relative;
-
 }
 
-.basic nav ul {
-    display: flex;
-    text-align: inherit;
-    gap: 150px;
+nav>ul>li ul {
+    position:absolute;
+    inset: 60px auto auto 50%;
+    z-index:999;
+    visibility: hidden;
+    width: 200px;
+    transform: translateX(-50%);
+    opacity: 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+ 
+nav>ul>li:hover ul {
+    inset: 90px auto auto 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
 }
 
-.basic nav ul li {  
-    margin: 0 auto;
+nav>ul>li> ul li {
+    position: relative;
+}
+
+.main_visual {
+    position: relative;
+    height: 1000px;
+    background: url('../img/bach-do-azur-lane-enterprisesd.jpg') no-repeat center center/cover;
 }
