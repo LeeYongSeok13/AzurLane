@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AzurLane/static/css/main.073c9b0a.css",
+    "main.js": "/AzurLane/static/js/main.c41dab9a.js",
+    "static/js/787.94109097.chunk.js": "/AzurLane/static/js/787.94109097.chunk.js",
+    "static/media/logo.svg": "/AzurLane/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AzurLane/index.html",
+    "main.073c9b0a.css.map": "/AzurLane/static/css/main.073c9b0a.css.map",
+    "main.c41dab9a.js.map": "/AzurLane/static/js/main.c41dab9a.js.map",
+    "787.94109097.chunk.js.map": "/AzurLane/static/js/787.94109097.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.c41dab9a.js"
+  ]
+}
